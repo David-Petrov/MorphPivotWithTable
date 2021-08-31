@@ -27,3 +27,5 @@ class Transfer extends Model
     }
 }
 ```
+
+Just try to run `php artisan migrate:fresh --seed` and you'll see the problem.
