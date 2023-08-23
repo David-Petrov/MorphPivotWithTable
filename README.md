@@ -1,4 +1,4 @@
-# Custom MorphPivot intermediate table model's `$table` property not respected
+# [MWE] Custom MorphPivot intermediate table model's `$table` property not respected
 
 It's all evident in the `Transfer.php` example file. When using a custom MorphPivot model, its `$table` property is not respected to automatically deduce the intermediate table's name. This becomes inconvenient especially with polymorphic relations, since they're heavily reusable. I generally don't know if that's a bug, gut after digging around in the framework I think it's actually thought to respect the `$table` property when a custom intermediate table model has been set.
 
